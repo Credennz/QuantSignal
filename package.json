@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "emailjs-com": "^3.2.0",
+>>>>>>> 192ef9a (update)
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -31,4 +35,8 @@
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 192ef9a (update)
