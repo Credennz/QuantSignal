@@ -13,7 +13,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between" >
           <Link to="/" className="flex items-center space-x-1">
-            <img src="/public/img/image.png" alt="QuantSignal Logo" className="h-8 w-25 text-blue-600" />
+            <img src="../public/img/image.png" alt="QuantSignal Logo" className="h-8 w-24 text-blue-600" />
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
