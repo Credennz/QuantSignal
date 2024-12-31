@@ -51,7 +51,8 @@ export default function Footer() {
             <p className="text-gray-400 mb-4">
               Subscribe to get the latest updates on market trends and trading strategies.
             </p>
-            <form className="flex">
+            <form >
+              <div className="lg:flex-row md:flex-col sm:flex-col">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -60,6 +61,7 @@ export default function Footer() {
               <button className="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 transition-colors">
                 Subscribe
               </button>
+              </div>
             </form>
           </div>
         </div>
