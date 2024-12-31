@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { LineChart, Play } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import GradientButton from './common/GradientButton';
 
 export default function Hero() {
@@ -28,11 +29,11 @@ export default function Hero() {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              A better way to market with Ai {' '}
+              Daily profit with {' '}
             <span className="bg-gradient-to-r from-violet-400 to-blue-500 text-transparent bg-clip-text">
-              based trading indicators. Get on
+              MicroQuant
             </span>{' '}
-            the waitlist to get the access
+            Technology
           </h1>
           
           <p className="text-xl text-gray-300 mb-8 max-w-2xl">
@@ -40,9 +41,11 @@ export default function Hero() {
           </p>
 
           <div className="flex items-center space-x-6">
-            <GradientButton onClick={() => setIsPurchaseModalOpen(true)}>
-                        Add to TradingView
+          <GradientButton>
+            <Link to="/indicators" className="text-white-900 hover:text-white-600">View indicators</Link>
             </GradientButton>
+                        
+            
             
             <button className="group flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
               <div className="flex items-center justify-center w-10 h-10 rounded-full bg-violet-500/10 group-hover:bg-violet-500/20 transition-colors">

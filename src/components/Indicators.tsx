@@ -99,7 +99,7 @@ export default function Indicators() {
               </div>
 
               <GradientButton onClick={() => setIsPurchaseModalOpen(true)}>
-                Try This Indicator
+                Add to TradingView
               </GradientButton>
             </div>
 

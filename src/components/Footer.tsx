@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               {/* <LineChart className="h-6 w-6 text-blue-400" /> */}
-              <img src="../public/img/Logo.png" alt="QuantSignal Logo" className="h-8 w-8 text-blue-600" />
+              <img src="../public/img/Logo.png" alt="QuantSignal Logo" className="h-6 w-6 text-blue-600" />
               <span className="text-xl font-bold text-white">QuantSignal</span>
             </div>
             <p className="text-gray-400 mb-4">
