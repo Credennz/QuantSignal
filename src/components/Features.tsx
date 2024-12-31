@@ -32,7 +32,7 @@ export default function Features() {
       <div className="container mx-auto px-4">
         <div className={`text-center mb-16 ${fadeIn}`}>
           <h2 className="text-3xl font-bold text-white mb-4">
-            Compound Returns with the <span className="text-blue-400">Un-Hedge FUND™</span>
+            Compound Returns with the <span className="text-blue-400">QuantSignal™</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
             Professional-grade algorithms designed for retail traders

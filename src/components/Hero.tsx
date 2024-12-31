@@ -24,19 +24,19 @@ export default function Hero() {
         <div className="max-w-xl animate-[fadeInUp_1s_ease-out]">
           <div className="inline-flex items-center space-x-2 bg-violet-500/10 px-4 py-2 rounded-full mb-6 backdrop-blur-sm">
             <LineChart className="h-5 w-5 text-violet-400" />
-            <span className="text-violet-400 font-medium">Professional Trading Tools</span>
+            <span className="text-violet-400 font-medium">AI Based Trading Indicators</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Daily profit with{' '}
+              A better way to market with Ai {' '}
             <span className="bg-gradient-to-r from-violet-400 to-blue-500 text-transparent bg-clip-text">
-              MicroQuant
+              based trading indicators. Get on
             </span>{' '}
-            technology
+            the waitlist to get the access
           </h1>
           
           <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-            The un-hedge fund way to profit. Get on the waitlist by QuantSignal.
+          Here an youtube link will be given
           </p>
 
           <div className="flex items-center space-x-6">

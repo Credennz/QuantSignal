@@ -5,13 +5,9 @@ import emailjs from 'emailjs-com';
 
 // Define broker options
 const brokers = [
-  'Angel One',
-  'Zerodha',
-  'Jainam Broking',
-  'Upstox',
-  'Dhan',
-  'Groww',
-  'Others'
+  'Python',
+  'Pine Script',
+  
 ];
 
 export default function AlgoForm() {
@@ -136,7 +132,7 @@ export default function AlgoForm() {
                 className="w-full px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                 required
               >
-                <option value="">Select Broker</option>
+                <option value="">Select Language</option>
                 {brokers.map((broker) => (
                   <option key={broker} value={broker}>{broker}</option>
                 ))}

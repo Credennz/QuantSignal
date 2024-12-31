@@ -1,5 +1,5 @@
 import React from 'react';
-import { LineChart, Twitter, Linkedin, Mail } from 'lucide-react';
+import { LineChart, Twitter, Linkedin, Mail, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
@@ -24,7 +24,7 @@ export default function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a href="#" className="hover:text-blue-400 transition-colors">
-                <Mail className="h-5 w-5" />
+                <Youtube className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -32,8 +32,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Products</h3>
             <ul className="space-y-2">
-              <li><Link to="/indicators" className="hover:text-blue-400 transition-colors">Trading Indicators</Link></li>
-              <li><Link to="/make-algo" className="hover:text-blue-400 transition-colors">Algo Trading</Link></li>
+              <li><Link to="/indicators" className="hover:text-blue-400 transition-colors">Indicators</Link></li>
+              <li><Link to="/make-algo" className="hover:text-blue-400 transition-colors">Make Algo</Link></li>
               <li><Link to="/contact" className="hover:text-blue-400 transition-colors">Contact Us</Link></li>
             </ul>
           </div>

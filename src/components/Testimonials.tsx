@@ -3,20 +3,20 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: 'Sarah Chen',
-    role: 'Professional Trader',
+    name: 'Santosh Motwani',
+    role: 'NISM certified trader',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150',
     content: "QuantSignal has transformed my trading strategy. The indicators are incredibly accurate and the algo trading features are game-changing."
   },
   {
-    name: 'Michael Rodriguez',
-    role: 'Investment Analyst',
+    name: 'Sandip Moharana',
+    role: 'NISM certified trader',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&h=150',
     content: "The platform's risk management tools have helped me maintain consistent profits. Best trading solution I've used in my 10-year career."
   },
   {
-    name: 'Emily Thompson',
-    role: 'Hedge Fund Manager',
+    name: 'Rameswar Rath',
+    role: 'Professional Trader',
     image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=150&h=150',
     content: "Exceptional platform with powerful analytics. The customer support team is highly knowledgeable and always ready to help."
   }

@@ -13,33 +13,7 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between" >
           <Link to="/" className="flex items-center space-x-1">
-<<<<<<< HEAD
-            <img src="../my-project/public/img/Logo.svg" alt="QuantSignal Logo" className="h-10 w-18 text-blue-600" />
-=======
-            <img src="../public/img/Logo.png" alt="QuantSignal Logo" className="h-6 w-6 text-blue-600" />
-            <span 
-                  className="text-[1.5rem] font-normal" 
-                  style={{
-                    fontFamily: "'Orbitron', sans-serif",
-                    color: '#000080',
-                    letterSpacing: '0.02em',
-                    lineHeight: '1'
-                  }}
-                >
-                  Quant
-                </span>
-                <span 
-                  className="text-[2rem] font-normal" 
-                  style={{
-                    fontFamily: "'Orbitron', sans-serif",
-                    color: '#000080',
-                    letterSpacing: '0.em',
-                    lineHeight: '1'
-                  }}
-                >
-                  Signal
-                </span>
->>>>>>> 192ef9a (update)
+            <img src="/public/img/Logo.svg" alt="QuantSignal Logo" className="h-8 w-25 text-blue-600" />
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
