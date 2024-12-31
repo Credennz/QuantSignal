@@ -3,7 +3,7 @@ import { Code2 } from 'lucide-react';
 
 export default function AlgoHero() {
   return (
-    <div className="relative h-[60vh] overflow-hidden">
+    <div className="relative h-[100vh] overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 to-gray-900/90" />
       
       <div 

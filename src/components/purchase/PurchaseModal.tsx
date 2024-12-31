@@ -58,8 +58,8 @@ export default function PurchaseModal({ indicator, isOpen, onClose }: PurchaseMo
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <div className="mb-6">
-                  <div className="text-3xl font-bold text-white mb-2">
-                    $199
+                  <div className="text-3xl font-bold text-white mb-2">&#8377; 
+                  {/* {indicator.price} */}199
                     <span className="text-lg text-gray-400 font-normal">/month</span>
                   </div>
                   <p className="text-sm text-gray-400">Includes lifetime updates and premium support</p>

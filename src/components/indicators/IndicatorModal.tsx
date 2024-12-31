@@ -80,7 +80,7 @@ export default function IndicatorModal({ indicator, isOpen, onClose }: Indicator
                 <div className="bg-gray-800/50 rounded-lg p-6 mb-6">
                   <h4 className="text-lg font-semibold text-white mb-4">Pricing</h4>
                   <div className="mb-4">
-                    <span className="text-3xl font-bold text-white">$199</span>
+                    <span className="text-3xl font-bold text-white">&#8377; {indicator.price}</span>
                     <span className="text-gray-400 ml-2">/ month</span>
                   </div>
                   <p className="text-sm text-gray-400 mb-6">

@@ -48,10 +48,10 @@ export default function SupportModal({ isOpen, onClose }: SupportModalProps) {
           <p className="text-gray-400 mb-6">
             Need help? Contact us at{' '}
             <a 
-              href="mailto:help@quantsignal.in" 
+              href="mailto:enquiry@quantsignal.in" 
               className="text-blue-400 hover:text-blue-300"
             >
-              help@quantsignal.in
+              enquiry@quantsignal.in
             </a>
           </p>
 

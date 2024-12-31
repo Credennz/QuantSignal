@@ -18,9 +18,9 @@ export default function ContactPage() {
 
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {[
-            { icon: Mail, title: 'Email', info: 'contact@quantsignal.in' },
+            { icon: Mail, title: 'Email', info: 'enquiry@quantsignal.in' },
             { icon: Phone, title: 'Phone', info: '+91 (123) 456-7890' },
-            { icon: MapPin, title: 'Location', info: 'Mumbai, India' }
+            { icon: MapPin, title: 'Location', info: 'Bhubaneswar, Odisha, India' }
           ].map((item, index) => (
             <div 
               key={index}

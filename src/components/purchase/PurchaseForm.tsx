@@ -4,7 +4,7 @@ import { useForm } from '../../hooks/useForm';
 import GradientButton from '../common/GradientButton';
 
 interface PurchaseFormProps {
-  indicator: any;
+  indicator: { name: string; price: number }; // Ensure `indicator` contains `name` and `price`
   isOpen: boolean;
   onClose: () => void;
 }
@@ -20,13 +20,40 @@ export default function PurchaseForm({ indicator, isOpen, onClose }: PurchaseFor
     },
     onSubmit: async (values) => {
       try {
-        // Here you would integrate with your payment processor
-        console.log('Processing payment:', { ...values, indicator: indicator.name });
-        // After successful payment:
-        alert('Purchase successful! Check your email for TradingView integration instructions.');
-        onClose();
+        // Calculate the amount in paisa (1 INR = 100 paisa)
+        const amountInPaisa = indicator.price * 100; // Convert the price in INR to paisa
+
+        // Razorpay payment options
+        const options = {
+          key: 'rzp_test_YE1E8VYciSc79K', // Your Razorpay Key ID
+          amount: amountInPaisa, // Amount in paisa
+          currency: 'INR', // Currency
+          name: 'Your Company Name',
+          description: `Purchase ${indicator.name}`,
+          image: 'https://your-logo-url.com/logo.png', // Optional logo
+          handler: function (response) {
+            alert(`Payment successful! Payment ID: ${response.razorpay_payment_id}`);
+            onClose();
+          },
+          prefill: {
+            name: values.name,
+            email: values.email,
+            contact: values.phone,
+          },
+          theme: {
+            color: '#3399cc',
+          },
+        };
+
+        const rzp = new window.Razorpay(options);
+        rzp.on('payment.failed', function (response) {
+          alert('Payment failed. Error: ' + response.error.description);
+          console.log(response.error);
+        });
+        rzp.open();
       } catch (error) {
         alert('Payment failed. Please try again.');
+        console.log(error);
       }
     }
   });

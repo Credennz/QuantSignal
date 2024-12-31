@@ -36,7 +36,7 @@ const indicators: Indicator[] = [
   {
     id: 3,
     name: 'Volatility Predictor',
-    description: 'Predicts market volatility spikes with high accuracy',
+    description: 'Advanced trend detection using machine learning algorithms',
     accuracy: '91.8%',
     signals: '8-12 per day',
     icon: Activity,
@@ -99,7 +99,7 @@ export default function Indicators() {
               </div>
 
               <GradientButton onClick={() => setIsPurchaseModalOpen(true)}>
-                Add to TradingView
+                Try This Indicator
               </GradientButton>
             </div>
 

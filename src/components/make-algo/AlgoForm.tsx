@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { useForm } from '../../hooks/useForm';
 import GradientButton from '../common/GradientButton';
+import emailjs from 'emailjs-com';
 
+// Define broker options
 const brokers = [
   'Angel One',
   'Zerodha',
@@ -13,6 +15,7 @@ const brokers = [
 ];
 
 export default function AlgoForm() {
+  // Form hook to handle form values and submission
   const { values, handleChange, handleSubmit, errors } = useForm({
     initialValues: {
       name: '',
@@ -23,12 +26,40 @@ export default function AlgoForm() {
     },
     onSubmit: async (values) => {
       console.log('Form submitted:', values);
-      // TODO: Implement form submission logic
+      // Send form data using EmailJS
+      try {
+        const formData = {
+          name: values.name,
+          phone: values.phone,
+          email: values.email,
+          broker: values.broker,
+          remarks: values.remarks,
+        };
+
+        // Optional: Append file to the email
+        if (file) {
+          formData.file = file.name; // You can send file name or handle it differently.
+        }
+
+        // Send email via EmailJS service
+        const result = await emailjs.send(
+          'service_dwxndyd',      // Replace with your EmailJS service ID
+          'template_zxswbkk',     // Replace with your EmailJS template ID
+          formData,               // Data to be sent in the email
+          '3UtBxf_d8mK7aqcXU'          // Replace with your EmailJS user ID
+        );
+        console.log('Email sent successfully:', result.text);
+        alert('Your form has been submitted successfully!');
+      } catch (error) {
+        console.error('Error sending email:', error);
+        alert('Error sending your form data.');
+      }
     }
   });
 
   const [file, setFile] = useState<File | null>(null);
 
+  // File change handler
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0];
     if (selectedFile) {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
+import emailjs from 'emailjs-com'; // Import EmailJS
 
 interface ContactModalProps {
   isOpen: boolean;
@@ -16,10 +17,31 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
     details: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    onClose();
+
+    try {
+      const result = await emailjs.send(
+       'service_dwxndyd', // Replace with your EmailJS service ID
+        'template_zxswbkk', // Replace with your EmailJS template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          strategies: formData.strategies,
+          platform: formData.platform,
+          details: formData.details,
+        },
+        '3UtBxf_d8mK7aqcXU' // Replace with your EmailJS user ID
+      );
+     
+      console.log('Email sent successfully:', result.text);
+      alert('Your message has been sent successfully!');
+      onClose(); // Close the modal after successful submission
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert('There was an error sending your message.');
+    }
   };
 
   if (!isOpen) return null;

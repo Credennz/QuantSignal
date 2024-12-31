@@ -4,6 +4,7 @@ import GradientButton from './common/GradientButton';
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0);
+  const [isPurchaseModalOpen, setIsPurchaseModalOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
@@ -12,7 +13,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="relative h-[80vh] overflow-hidden">
+    <div className="relative h-[100vh] overflow-hidden">
       {/* Gradient Background */}
       <div 
         className="absolute inset-0 bg-gradient-to-br from-violet-800 via-blue-900 to-gray-900"
@@ -39,8 +40,8 @@ export default function Hero() {
           </p>
 
           <div className="flex items-center space-x-6">
-            <GradientButton>
-              Free Trial Signal
+            <GradientButton onClick={() => setIsPurchaseModalOpen(true)}>
+                        Add to TradingView
             </GradientButton>
             
             <button className="group flex items-center space-x-2 text-gray-300 hover:text-white transition-colors">
@@ -84,5 +85,8 @@ export default function Hero() {
         </div>
       </div>
     </div>
+    
+
+    
   );
 }

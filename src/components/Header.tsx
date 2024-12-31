@@ -3,6 +3,7 @@ import { LineChart, Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { SupportContext } from '../App';
 
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { openSupport } = useContext(SupportContext);
@@ -10,10 +11,9 @@ export default function Header() {
   return (
     <header className="fixed w-full bg-white/95 backdrop-blur-sm z-40 border-b border-gray-100">
       <nav className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center space-x-2">
-            <LineChart className="h-6 w-6 text-blue-600" />
-            <span className="text-xl font-bold text-gray-900">QuantSignal</span>
+        <div className="flex items-center justify-between" >
+          <Link to="/" className="flex items-center space-x-1">
+            <img src="../my-project/public/img/Logo.svg" alt="QuantSignal Logo" className="h-10 w-18 text-blue-600" />
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
@@ -36,6 +36,9 @@ export default function Header() {
 
           <button 
             className="md:hidden"
+            style={{
+              color: 'rgb(24 63 218)'
+            }}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X /> : <Menu />}

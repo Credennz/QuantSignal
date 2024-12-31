@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from '../../hooks/useForm';
 import GradientButton from '../common/GradientButton';
+import emailjs from 'emailjs-com';  // Import EmailJS
 
 export default function ContactForm() {
   const { values, handleChange, handleSubmit } = useForm({
@@ -13,7 +14,31 @@ export default function ContactForm() {
     },
     onSubmit: async (values) => {
       console.log('Contact form submitted:', values);
-      // TODO: Implement form submission logic
+
+      // Send form data using EmailJS
+      try {
+        const formData = {
+          name: values.name,
+          email: values.email,
+          phone: values.phone,
+          subject: values.subject,
+          message: values.message,
+        };
+
+        // Send email via EmailJS service
+        const result = await emailjs.send(
+          'service_dwxndyd',      // Replace with your EmailJS service ID
+          'template_zxswbkk',     // Replace with your EmailJS template ID
+          formData,               // Data to be sent in the email
+          '3UtBxf_d8mK7aqcXU'          // Replace with your EmailJS user ID
+        );
+
+        console.log('Email sent successfully:', result.text);
+        alert('Your message has been sent successfully!');
+      } catch (error) {
+        console.error('Error sending email:', error);
+        alert('There was an error sending your message.');
+      }
     }
   });
 
