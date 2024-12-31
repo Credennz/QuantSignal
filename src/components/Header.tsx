@@ -13,8 +13,9 @@ export default function Header() {
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between" >
           <Link to="/" className="flex items-center space-x-1">
-            <img src="../public/img/image.png" alt="QuantSignal Logo" className="h-8 w-24 text-blue-600" />
+            <img src="https://i.ibb.co/Vpp05BQ/image.png" alt="QuantSignal Logo" className="h-8 w-40 text-blue-600" />
           </Link>
+   
           
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/indicators" className="text-gray-600 hover:text-blue-600 transition-colors">Indicators</Link>
