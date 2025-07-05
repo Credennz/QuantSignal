@@ -35,7 +35,7 @@ export function TermsOfService({ onBack }: TermsOfServiceProps) {
           <section>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">1. Acceptance of Terms</h2>
             <p className="text-gray-700 leading-relaxed">
-              By accessing and using TradePro's website and services, you accept and agree to be bound by the terms 
+              By accessing and using QuantSignal's website and services, you accept and agree to be bound by the terms 
               and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
             </p>
           </section>
@@ -44,7 +44,7 @@ export function TermsOfService({ onBack }: TermsOfServiceProps) {
           <section>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">2. Service Description</h2>
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-              <p className="text-gray-700 mb-4">TradePro provides:</p>
+              <p className="text-gray-700 mb-4">QuantSignal provides:</p>
               <ul className="space-y-2">
                 <li className="flex items-start space-x-3">
                   <span className="text-blue-600">•</span>
@@ -152,7 +152,7 @@ export function TermsOfService({ onBack }: TermsOfServiceProps) {
             <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6">
               <p className="text-gray-700 mb-4">
                 All content, including but not limited to trading indicators, algorithms, documentation, and educational 
-                materials, are the exclusive property of TradePro and are protected by copyright and other intellectual 
+                materials, are the exclusive property of QuantSignal and are protected by copyright and other intellectual 
                 property laws.
               </p>
               <p className="text-gray-700">
@@ -201,7 +201,7 @@ export function TermsOfService({ onBack }: TermsOfServiceProps) {
             
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
               <p className="text-gray-700 mb-4">
-                TradePro shall not be liable for any direct, indirect, incidental, special, or consequential damages 
+                QuantSignal shall not be liable for any direct, indirect, incidental, special, or consequential damages 
                 resulting from the use or inability to use our services, including but not limited to:
               </p>
               <ul className="space-y-2">
@@ -261,10 +261,10 @@ export function TermsOfService({ onBack }: TermsOfServiceProps) {
               </p>
               <div className="space-y-2">
                 <p className="text-gray-700">
-                  <span className="font-semibold">Email:</span> legal@tradepro.com
+                  <span className="font-semibold">Email:</span> support@quantsignal.in
                 </p>
                 <p className="text-gray-700">
-                  <span className="font-semibold">Support:</span> support@tradepro.com
+                  <span className="font-semibold">Support:</span> support@quantsignal.in
                 </p>
                 <p className="text-gray-700">
                   <span className="font-semibold">Response Time:</span> Within 48 hours

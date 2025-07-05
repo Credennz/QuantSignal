@@ -74,7 +74,7 @@ export function RefundPolicy({ onBack }: RefundPolicyProps) {
               <div className="bg-green-50 border border-green-200 rounded-lg p-4">
                 <h3 className="font-semibold text-gray-800 mb-2">Step 1: Contact Support</h3>
                 <p className="text-gray-700 text-sm">
-                  Email our support team at support@tradepro.com with your order details and reason for refund request.
+                  Email our support team at support@quantsignal.in with your order details and reason for refund request.
                 </p>
               </div>
               <div className="bg-green-50 border border-green-200 rounded-lg p-4">
@@ -153,7 +153,7 @@ export function RefundPolicy({ onBack }: RefundPolicyProps) {
               </p>
               <div className="space-y-2">
                 <p className="text-gray-700">
-                  <span className="font-semibold">Email:</span> support@tradepro.com
+                  <span className="font-semibold">Email:</span> support@quantsignal.in
                 </p>
                 <p className="text-gray-700">
                   <span className="font-semibold">Response Time:</span> Within 24 hours

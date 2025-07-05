@@ -53,7 +53,7 @@ export function RiskDisclosure({ onBack }: RiskDisclosureProps) {
             
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Trading indicators, signals, and analysis tools provided by TradePro are for educational and 
+                Trading indicators, signals, and analysis tools provided by QuantSignal are for educational and 
                 informational purposes only. They do not guarantee profitable trades or eliminate the risk of loss.
               </p>
               <ul className="space-y-2">
@@ -240,7 +240,7 @@ export function RiskDisclosure({ onBack }: RiskDisclosureProps) {
             <h2 className="text-2xl font-bold text-gray-800 mb-4">No Performance Guarantee</h2>
             <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
               <p className="text-gray-700 mb-4">
-                TradePro makes no representations or warranties regarding the performance of our indicators:
+                QuantSignal makes no representations or warranties regarding the performance of our indicators:
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start space-x-3">
@@ -268,7 +268,7 @@ export function RiskDisclosure({ onBack }: RiskDisclosureProps) {
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Acknowledgment</h2>
             <div className="bg-red-50 border border-red-200 rounded-lg p-6">
               <p className="text-gray-700 font-medium">
-                By purchasing and using TradePro's indicators and services, you acknowledge that you have read, 
+                By purchasing and using QuantSignal's indicators and services, you acknowledge that you have read, 
                 understood, and accepted all the risks outlined in this disclosure statement. You confirm that 
                 you are aware of the potential for financial loss and that you are trading with capital you can 
                 afford to lose.
@@ -285,10 +285,10 @@ export function RiskDisclosure({ onBack }: RiskDisclosureProps) {
               </p>
               <div className="space-y-2">
                 <p className="text-gray-700">
-                  <span className="font-semibold">Email:</span> risk@tradepro.com
+                  <span className="font-semibold">Email:</span> risk@quantsignal.in
                 </p>
                 <p className="text-gray-700">
-                  <span className="font-semibold">Support:</span> support@tradepro.com
+                  <span className="font-semibold">Support:</span> support@quantsignal.in
                 </p>
                 <p className="text-gray-700">
                   <span className="font-semibold">Response Time:</span> Within 24 hours

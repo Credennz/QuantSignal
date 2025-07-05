@@ -35,7 +35,7 @@ export function PrivacyPolicy({ onBack }: PrivacyPolicyProps) {
           <section>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Introduction</h2>
             <p className="text-gray-700 leading-relaxed">
-              TradePro ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains 
+              QuantSignal ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains 
               how we collect, use, disclose, and safeguard your information when you visit our website and use our 
               trading indicator services. Please read this privacy policy carefully.
             </p>
@@ -221,10 +221,10 @@ export function PrivacyPolicy({ onBack }: PrivacyPolicyProps) {
               </p>
               <div className="space-y-2">
                 <p className="text-gray-700">
-                  <span className="font-semibold">Email:</span> privacy@tradepro.com
+                  <span className="font-semibold">Email:</span> support@quantsignal.in
                 </p>
                 <p className="text-gray-700">
-                  <span className="font-semibold">Support:</span> support@tradepro.com
+                  <span className="font-semibold">Support:</span> support@quantsignal.in
                 </p>
                 <p className="text-gray-700">
                   <span className="font-semibold">Response Time:</span> Within 48 hours
