@@ -15,32 +15,24 @@ export function FAQ() {
     },
     {
       question: 'Which trading platforms are supported?',
-      answer: 'Our indicators are compatible with MetaTrader 4, MetaTrader 5, TradingView, and most major trading platforms. We provide installation guides for each platform.'
-    },
-    {
-      question: 'What\'s your refund policy?',
-      answer: 'We offer a 30-day money-back guarantee. If you\'re not satisfied with your purchase for any reason, contact our support team within 30 days for a full refund.'
+      answer: 'We only support TradingView at the moment. For any other requirements please contact us at support@quantsignal.in.'
     },
     {
       question: 'Do you provide ongoing support and updates?',
-      answer: 'Yes! All purchases include lifetime updates and access to our support team. We continuously improve our indicators based on market conditions and user feedback.'
+      answer: 'Yes. we provide ongoing support our paid users and consistently been putting effort on improving on your feedbacks'
     },
     {
       question: 'Can I use these indicators for cryptocurrency trading?',
-      answer: 'Absolutely! Our indicators work across all financial markets including forex, stocks, commodities, and cryptocurrencies. The CryptoWave Master is specifically optimized for crypto markets.'
+      answer: 'Absolutely! Our indicators work across all financial markets including forex, stocks, commodities, and cryptocurrencies.'
     },
     {
       question: 'How do I receive the indicators after purchase?',
-      answer: 'After completing your purchase, you\'ll immediately receive download links and installation instructions via email. Our support team is available to help with setup if needed.'
-    },
-    {
-      question: 'Are there any monthly fees or subscriptions?',
-      answer: 'No! All our indicators are one-time purchases with lifetime access. You own the indicators forever with no recurring fees or subscriptions required.'
+      answer: 'After the purchase, you will receive the e-bill and our support team will contact you for the installation within hours.'
     }
   ];
 
   const handleTelegramJoin = () => {
-    window.open('https://t.me/8895244936', '_blank');
+    window.open('https://t.me/+SfIDPbYr-sI5ZjE1', '_blank');
   };
 
   return (

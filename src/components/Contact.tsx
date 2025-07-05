@@ -51,7 +51,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-800">Email Support</h3>
-                  <p className="text-gray-600">support@tradepro.com</p>
+                  <p className="text-gray-600">support@quantsignal.in</p>
                 </div>
               </div>
               <p className="text-gray-700 text-sm">

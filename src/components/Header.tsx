@@ -40,11 +40,11 @@ export function Header() {
               {/* Logo */}
               <div className="flex items-center space-x-2">
                 <img 
-                  src="/image.png" 
-                  alt="TradePro Logo" 
+                  src="/QuantSignal.svg" 
+                  alt="QuantSignal" 
                   className="h-8 w-8 object-contain"
                 />
-                <span className="text-lg font-bold text-gray-800">TradePro</span>
+                <span className="text-lg font-bold text-gray-800">QuantSignal</span>
               </div>
               
               <button
@@ -83,11 +83,11 @@ export function Header() {
               {/* Logo */}
               <div className="flex items-center space-x-2">
                 <img 
-                  src="/image.png" 
-                  alt="TradePro Logo" 
+                  src="/QuantSignal.svg" 
+                  alt="QuantSignal Logo" 
                   className="h-6 w-6 object-contain"
                 />
-                <span className="text-sm font-bold text-gray-800">TradePro</span>
+                <span className="text-sm font-bold text-gray-800">QuantSignal</span>
               </div>
               
               {/* Hamburger Menu Button */}

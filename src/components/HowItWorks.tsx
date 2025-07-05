@@ -98,7 +98,7 @@ export function HowItWorks() {
                 Add Indicator in Tradingview
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Choose your indicator membership and connect the indicator to tradingview chart.
+                Choose your indicator plan and seamlessly connect it to your TradingView chart in seconds.
               </p>
             </div>
 
@@ -182,7 +182,7 @@ export function HowItWorks() {
                 Wait For Signals
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Wait for the right signal to be generate as per the quant signal indicators and instructions.
+               Let our quant-based indicators analyze the market and alert you to high-probability trade setups.
               </p>
             </div>
 
@@ -223,8 +223,8 @@ export function HowItWorks() {
               <h3 className="text-xl font-bold text-gray-800 mb-3">
                 Take Fearless Trades
               </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Take trades as per the signals and wait for the targets to hit.
+              <p className="text-gray-600 text-sm leading-relaxed">Act on the signals and manage your trades effortlessly — aim for your targets without
+hesitation.
               </p>
             </div>
           </div>

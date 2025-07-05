@@ -22,7 +22,7 @@ export function Hero() {
         <div className="mb-8">
           <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-400 to-orange-400 rounded-lg px-6 py-3 mb-8 shadow-xl">
             <Box className="h-4 w-4" style={{ color: '#1F2937' }} />
-            <span className="text-sm font-semibold" style={{ color: '#1F2937' }}>Indicators with Questsignal</span>
+            <span className="text-sm font-semibold" style={{ color: '#1F2937' }}>Indicators with QuantSignal</span>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ export function Hero() {
             <span className="text-gray-800">Only Indicator </span>
             <span className="text-green-400">Platform</span>
             <br />
-            <span className="text-green-400">Is All You Need</span>
+            <span className="text-green-400">You Need</span>
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed px-4">
             Transform your trading with professional-grade indicators that deliver consistent 

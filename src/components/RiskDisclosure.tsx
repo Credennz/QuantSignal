@@ -24,7 +24,7 @@ export function RiskDisclosure({ onBack }: RiskDisclosureProps) {
               <AlertTriangle className="h-8 w-8 text-red-600" />
               <h1 className="text-3xl font-bold text-gray-800">Risk Disclosure Statement</h1>
             </div>
-            <p className="text-gray-600">Last updated: January 1, 2024</p>
+            <p className="text-gray-600">Last updated: January 1, 2025</p>
           </div>
         </div>
 
