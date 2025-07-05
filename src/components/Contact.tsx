@@ -59,23 +59,7 @@ export function Contact() {
               </p>
             </div>
 
-            <div className="bg-white/60 backdrop-blur-sm border border-green-200/50 rounded-lg p-6 shadow-lg">
-              <div className="flex items-center space-x-4 mb-4">
-                <div 
-                  className="p-3 rounded-lg shadow-lg"
-                  style={{ 
-                    backgroundColor: '#22C55E',
-                    boxShadow: '0 0 20px rgba(34, 197, 94, 0.4)'
-                  }}
-                >
-                  <MessageCircle className="h-6 w-6 text-white" />
-                </div>
-              
-              </div>
-              <p className="text-gray-700 text-sm">
-                Chat with our support team for immediate assistance.
-              </p>
-            </div>
+        
 
             <div className="bg-white/60 backdrop-blur-sm border border-green-200/50 rounded-lg p-6 shadow-lg">
               <div className="flex items-center space-x-4 mb-4">
