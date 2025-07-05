@@ -70,10 +70,7 @@ export function Contact() {
                 >
                   <MessageCircle className="h-6 w-6 text-white" />
                 </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">Live Chat</h3>
-                  <p className="text-gray-600">Available 24/7</p>
-                </div>
+              
               </div>
               <p className="text-gray-700 text-sm">
                 Chat with our support team for immediate assistance.
